@@ -16,6 +16,7 @@ def inbox_open():
     successful_open = False
     while_exit = False
 
+
     '''searches inbox for a chosen phrase. if no emails are returned, user is 
     prompted that there are no matches, and can search again or quit. returns a
     set object containing all email addresses from the inbox that sent an email to
@@ -62,6 +63,7 @@ def inbox_open():
                 address = re.search('\<.+\>', messages['FROM'])
                 address = address.group(0).lstrip('<').rstrip('>')
                 address_bank.append(address)
+            break
         
         address_bank = set(address_bank) - user
         
