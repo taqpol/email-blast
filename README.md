@@ -5,7 +5,7 @@ simple script that filters and sends emails based on a user-defined phrase found
 This script will search an inbox for a user-defined string, and send an email to any email address that sent an email including that string. Uses include notifying a large amount of users of a secret event...and not much else. 
 
 <b>Requirements:</b><br>
--Python 3.x.x. All imports should be included in the base installation.
+-Python 3.x.x. All imports should be included in the base installation.<br>
 -An internet connection
 
 <b>Outstanding Issues:</b><br>
