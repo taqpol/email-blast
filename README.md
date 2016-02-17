@@ -9,7 +9,7 @@ This script will search an inbox for a user-defined string, and send an email to
 -An internet connection
 
 <b>Outstanding Issues:</b><br>
--Search efficiency is hindered due to the script searching the entire inbox. This may be prohibitively time-consuming as the inbox grows larger and larger. A fix may be in the works that allows the user to define a date range through which to search.
+-Search efficiency is hindered due to the script searching the entire inbox. This may be prohibitively time-consuming as the inbox grows larger and larger. A fix may be in the works that allows the user to define a date range through which to search.<br>
 -The only IMAP/SMTP servers that the script connects to are those by Gmail. Attempting to authenticate with an email address other than a Gmail one raises an exception. An option to choose various servers/implement a user-defined server may be in the works.
 
 <b>Usage:</b><br>
